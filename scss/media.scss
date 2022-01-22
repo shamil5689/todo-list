@@ -1,0 +1,25 @@
+@media(max-width: 576px) {
+    .main__content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .main__input{
+        margin-right: unset;
+        margin-bottom: 20px;
+        height: 50px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 420px) {
+    .result .result-list__button{
+        flex-direction: column;
+    }
+    .result .result-list .result-button__item{
+        width: 100%;
+    }
+    .result .result-list .result-button__item:not(:last-child) {
+        margin-right: unset;
+        margin-bottom: 5px;
+    }
+}

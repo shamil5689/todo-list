@@ -1,0 +1,32 @@
+.main{
+    .main__form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__content{
+        display: flex;
+        justify-content: center;
+    }
+    &__input{
+        color: black;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 15px;
+        border: none;
+    }
+    &__button{
+        padding: 4px;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        color: white;
+        border-radius: 5px;
+        height: 100%;
+        border: none;
+        &:hover{
+            background-color: #1a4483;
+            border-color: #1a4483;
+        }
+    }
+}
