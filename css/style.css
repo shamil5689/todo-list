@@ -139,7 +139,7 @@ img {
   margin-right: 20px;
 }
 .result .result-list .result-button__ready {
-  background-color: #28a745 !important;
+  background-color: #28a745;
   border-color: #28a745;
 }
 .result .result-list .result-button__ready:hover {
