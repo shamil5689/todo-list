@@ -12,7 +12,7 @@ function deleteTask() {
 
 function clearStorage(id) {
 
-const newState = JSON.parse(localStorage.getItem('state')).filter(el => el.id === id)
+const newState = JSON.parse(localStorage.getItem('state')).filter(el => el.id !== id)
 
 localStorage.setItem('state', JSON.stringify(newState));
 }
